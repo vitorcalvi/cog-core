@@ -16,3 +16,10 @@ dependencies = [
     "matplotlib>=3.7.0",
     "lancedb>=0.26.1",
 ]
+
+[tool.setuptools]
+py-modules = ["debug_graph", "indexer", "graph_builder", "mlx_engine", "main"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
